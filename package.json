@@ -1,0 +1,11 @@
+{
+  "name": "esa-pages",
+  "version": "1.0.0",
+  "description": "Simple Node.js HTTP server",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "MIT"
+}
