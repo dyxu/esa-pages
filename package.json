@@ -4,7 +4,11 @@
   "description": "Simple Node.js HTTP server",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "build": "esbuild index.js --bundle --platform=node --outfile=dist/index.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.0"
   },
   "author": "",
   "license": "MIT"
