@@ -15,6 +15,6 @@
   "entry": "./edge.ts",
 
   // 路由分发：列表里的路由走 ER，其它由平台兜底（命中静态走 assets，否则走后端容器）
-  // "edgeFunctionFirst": ["/edge/*", "/api/v?/*", "!/api/beta/*"]
-  "edgeFunctionFirst": false
+  "edgeFunctionFirst": ["/edge/*", "/api/v2/*"]
+  // "edgeFunctionFirst": false
 }
