@@ -14,6 +14,10 @@ app.post('/api/echo', (req, res) => {
   res.json({ received: req.body });
 });
 
+app.get('/api/env', (req, res) => {
+  res.json(process.env);
+});
+
 app.listen(8080, () => {
   console.log('user-listen-cb on 8080 (will be intercepted)');
 });
